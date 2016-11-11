@@ -1,0 +1,13 @@
+#background{
+  background-color: red;
+  top: 0%;
+  width: 100%;
+}
+#title{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
