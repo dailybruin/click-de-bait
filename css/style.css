@@ -1,27 +1,11 @@
-#background{
-  background-color: red;
-  top: 0%;
-  width: 100%;
-}
-
-#title{
-  font-family: 'Nunito', sans-serif;
-  font-size: 2rem;
-  color: white;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .main-carousel {
-  background: #EEE;
 }
 
 .carousel-cell {
-  width: 66%;
-  height: 200px;
+  width: 70%;
+  height: 400px;
   margin-right: 10px;
-  background: #8C8;
+  background: deepskyblue;
   border-radius: 5px;
   counter-increment: carousel-cell;
 }
@@ -30,8 +14,24 @@
 .carousel-cell:before {
   display: block;
   text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
+}
+
+.carousel-content {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
   color: white;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.embed {
+  text-align: center;
 }
