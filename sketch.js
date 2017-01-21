@@ -15,8 +15,8 @@ var c12y = 600;
 var c12w = 1250;
 var c12h = 400;
 
-function setup() { 
-  createCanvas(2000, 1300);
+function setup() {
+  var canvas = createCanvas(2000, 1300);
   canvas.parent('sketch-holder');
 }
 
@@ -28,9 +28,9 @@ function preload() {
 }
 
 
-function draw() { 
+function draw() {
   background(244, 108, 66);
-  
+
 
   image(img1, 260, -100, 1500, 1215);
   //image(img2, 260, -100, 1500, 1215);
@@ -57,12 +57,12 @@ function draw() {
 			  noFill();
 				stroke(0, 102, 153);
 				}
-  
-  
+
+
   if (overRect(c12x, c12y, c12w, c12h)) {
-        
+
          image(img4, 260, -100, 1500, 1215);
-			
+
 				}  else {
 			  noFill();
 				stroke(0, 102, 153);
@@ -85,4 +85,3 @@ function overRect(x, y, w, h) {
 		return false;
 	}
 }
-
