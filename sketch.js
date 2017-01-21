@@ -9,9 +9,10 @@ var c13x = 1500;
 var c13y = 600;
 var c13r = 400;
 
-function setup() { 
-  createCanvas(2000, 1300);
-} 
+function setup() {
+  var canvas = createCanvas(2000, 1300);
+  canvas.parent('sketch-holder');
+}
 
 function preload() {
   img1 = loadImage("clickdebait1.png");
@@ -19,15 +20,15 @@ function preload() {
   img3 = loadImage("speechbubble2.png");
 }
 
-function draw() { 
+function draw() {
   background(206, 187, 165);
-  
+
   image(img1, 260, -100, 1500, 1215);
   //image(img2, 260, -100, 1500, 1215);
   //image(img3, 260, -100, 1500, 1215);
-  
-  
-  
+
+
+
    if (overCircle(c14x, c14y, c14r)) {
         image(img2, 260, -100, 1500, 1215);
 				fill(255);
@@ -37,12 +38,12 @@ function draw() {
 				stroke(0, 102, 153);
 				}
 
-    
+
     		//****** second button
        if (overCircle(c13x, c13y, c13r)) {
-        
+
          image(img3, 260, -100, 1500, 1215);
-			
+
 				}  else {
 			  noFill();
 				stroke(0, 102, 153);
@@ -52,8 +53,8 @@ function draw() {
 
 function overCircle(x, y, radius) {
 	if (dist(x, y, mouseX, mouseY) < radius) {
-	  return true;	
+	  return true;
 	} else {
-	  return false;	
+	  return false;
 	}
 }
