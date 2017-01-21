@@ -11,7 +11,7 @@ var c13r = 400;
 
 function setup() {
   var canvas = createCanvas(2000, 1300);
-  canvas.parent('sketch-holder');
+  canvas.parent('background');
 }
 
 function preload() {
