@@ -28,9 +28,8 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   position: fixed;
-  z-index: 2;
   left: 50%;
-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .main-carousel {
