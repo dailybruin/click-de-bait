@@ -5,20 +5,23 @@ var c14y = 700;
 var c14r = 400;
 
 //speech bubble 2
-var c13x = 1500;
+var c13x = 1100;
 var c13y = 600;
 var c13r = 400;
 
-var c12x = 400;
-var c12y = 600;
+var c12x = 200;
+var c12y = 300;
 var c12w = 1250;
 var c12h = 400;
 
-function setup() {
-  createCanvas(windowWidth, windowHeight).parent('sketch-holder');
-  // this.parent('sketch-holder');
-}
+var can;
 
+function setup() {
+  var x = (windowWidth - width)/2;
+  var y = (windowHeight - height)/2;
+  can = createCanvas(windowWidth, windowHeight);
+  can.parent('sketch-holder');
+}
 
 function preload() {
   img1 = loadImage("background.jpg");
@@ -27,18 +30,15 @@ function preload() {
   img4 = loadImage("names.png");
 }
 
+
 function draw() {
   background(244, 108, 66);
 
-
-  image(img1, 260, -100, 1500, 1215);
-  image(img2, 260, -100, 1500, 1215);
-  image(img3, 260, -100, 1500, 1215);
-
-
+  // Centers and fits into the window screen, but this warps the image
+  image(img1, 0, 0, width, height);
 
    if (overCircle(c14x, c14y, c14r)) {
-        image(img2, 260, -100, 1500, 1215);
+        image(img2, 0, -height/8, width, height);
 				fill(255);
 				noStroke();
 				}  else {
@@ -46,21 +46,20 @@ function draw() {
 				stroke(0, 102, 153);
 				}
 
+    //****** second button
+    if (overCircle(c13x, c13y, c13r)) {
 
-    		//****** second button
-       if (overCircle(c13x, c13y, c13r)) {
+         image(img3, -width/12, -height/8, width, height);
 
-         image(img3, 260, -100, 1500, 1215);
-
-				}  else {
+		}  else {
 			  noFill();
 				stroke(0, 102, 153);
-				}
+		}
 
 
   if (overRect(c12x, c12y, c12w, c12h)) {
 
-         image(img4, 260, -100, 1500, 1215);
+        image(img4, 0, 0, width, height);
 
 				}  else {
 			  noFill();
