@@ -15,8 +15,8 @@ var c12w = 1250;
 var c12h = 400;
 
 function setup() {
-  var canvas = createCanvas(2000, 1300);
-  canvas.parent('sketch-holder');
+  createCanvas(windowWidth, windowHeight).parent('sketch-holder');
+  // this.parent('sketch-holder');
 }
 
 
