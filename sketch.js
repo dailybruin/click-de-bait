@@ -9,7 +9,6 @@ var c13x = 1500;
 var c13y = 600;
 var c13r = 400;
 
-
 var c12x = 400;
 var c12y = 600;
 var c12w = 1250;
