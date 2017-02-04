@@ -27,7 +27,7 @@ function preload() {
   img1 = loadImage("background.jpg");
   img2 = loadImage("speechbubble1.png");
   img3 = loadImage("speechbubble2.png");
-  img4 = loadImage("names.png");
+  img4 = loadImage("namelist.png");
 }
 
 
