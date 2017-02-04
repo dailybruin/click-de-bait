@@ -1,9 +1,14 @@
 html, body {
   height: 100%;
+  background-color: #F5D6BA;
+}
+
+a {
+  color: white;
 }
 
 #title{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-size: 2rem;
   color: white;
   position: absolute;
@@ -11,15 +16,18 @@ html, body {
   left: 50%;
   transform: translate(-50%);
   z-index: 1;
+  text-align: center;
+  letter-spacing:6px;
+  padding-top: 15%;
 }
 
 .main-carousel {
-  width: 300px;
+  width: 200px;
   height: 400px;
 }
 
 .carousel-cell {
-  width: 90%;
+  width: 70%;
   height: 400px;
   margin-right: 10px;
   background: transparent;
