@@ -19,7 +19,7 @@ var can;
 function setup() {
   var x = (windowWidth - width)/2;
   var y = (windowHeight - height)/2;
-  can = createCanvas(windowWidth, windowHeight);
+  can = createCanvas(displayWidth, displayHeight);
   can.parent('sketch-holder');
 }
 
@@ -28,6 +28,10 @@ function preload() {
   img2 = loadImage("speechbubble1.png");
   img3 = loadImage("speechbubble2.png");
   img4 = loadImage("namelist.png");
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 
