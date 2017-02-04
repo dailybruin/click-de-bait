@@ -36,7 +36,7 @@ function windowResized() {
 
 
 function draw() {
-  //background(244, 108, 66);
+  background(244, 108, 66);
 
   // Centers and fits into the window screen, but this warps the image
   image(img1, 0, 0, width, height);
