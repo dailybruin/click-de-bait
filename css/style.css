@@ -1,5 +1,10 @@
 html, body {
   height: 100%;
+  background-color: #F5D6BA;
+}
+
+a {
+  color: white;
 }
 
 #title{
@@ -14,12 +19,12 @@ html, body {
 }
 
 .main-carousel {
-  width: 300px;
+  width: 200px;
   height: 400px;
 }
 
 .carousel-cell {
-  width: 90%;
+  width: 70%;
   height: 400px;
   margin-right: 10px;
   background: transparent;
