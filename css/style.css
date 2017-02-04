@@ -8,7 +8,7 @@ a {
 }
 
 #title{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-size: 2rem;
   color: white;
   position: absolute;
@@ -16,6 +16,9 @@ a {
   left: 50%;
   transform: translate(-50%);
   z-index: 1;
+  text-align: center;
+  letter-spacing:6px;
+  padding-top: 15%;
 }
 
 #main-carousel {
