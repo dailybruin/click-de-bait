@@ -22,6 +22,9 @@ a {
   padding-top: 5%;
 }
 
+.p5js{
+position: absolute;
+}
 
 
 #navbar{
@@ -40,6 +43,7 @@ li a:hover {
 
 ul {
 	list-style-type: none;
+	background-color: F46C42;
 }
 a {
 	padding:30px;
