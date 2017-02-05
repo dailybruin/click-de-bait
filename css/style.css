@@ -9,7 +9,8 @@ a {
 
 #title{
   font-family: 'Avenir', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
   color: white;
   position: absolute;
   margin-top: 5%;
@@ -18,7 +19,41 @@ a {
   z-index: 1;
   text-align: center;
   letter-spacing:6px;
-  padding-top: 15%;
+  padding-top: 5%;
+}
+
+
+
+#navbar{
+	margin-top: 3%;
+	margin-right: 2%;
+}
+li {
+    display: inline;
+    float: right;
+}
+
+li a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+a {
+	padding:30px;
+	font-family: 'Avenir', sans-serif;
+	font-weight: bold;
+	letter-spacing:2px;
+	font-size: 1rem;
+	
+}
+
+#navtitle{
+	font-size: 1.3em;
+	letter-spacing: 3px;
+	padding-left:38px;
 }
 
 #main-carousel {
