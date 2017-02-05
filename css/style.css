@@ -25,8 +25,8 @@ a {
 
 
 #navbar{
-	margin-top: 3%;
-	margin-right: 2%;
+	margin-top: 4%;
+	margin-right: 5%;
 }
 li {
     display: inline;
@@ -53,7 +53,7 @@ a {
 #navtitle{
 	font-size: 1.3em;
 	letter-spacing: 3px;
-	padding-left:38px;
+	padding-left:90px;
 }
 
 #main-carousel {
