@@ -19,7 +19,7 @@ var can;
 function setup() {
   var x = (windowWidth - width)/2;
   var y = (windowHeight - height)/2;
-  can = createCanvas(displayWidth, displayHeight);
+  can = createCanvas(canvas.innerWidth, canvas.innerHeight);
   can.parent('sketch-holder');
 }
 

@@ -87,6 +87,13 @@ a {
   z-index: 1;
 }
 
+
+.animated {
+  float: left;
+  position: relative;
+  left: 15%;
+}
+
 footer {
   font-family: 'Nunito', sans-serif;
   font-size: 10px;
