@@ -52,6 +52,11 @@ a {
   z-index: 1;
 }
 
+.icons {
+  position: relative;
+  left: 15%;
+}
+
 footer {
   font-family: 'Nunito', sans-serif;
   font-size: 10px;
