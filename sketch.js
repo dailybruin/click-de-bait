@@ -1,19 +1,18 @@
-
-//speech bubble 1
-
-var c14x = 900;
-var c14y = 700;
-var c14r = 400;
+var width = 2000;
+var height= 1300;
+var c14x = width-1100;//900
+var c14y = height-600;//700
+var c14r = width-1600;//400
 
 //speech bubble 2
-var c13x = 1100;
-var c13y = 600;
-var c13r = 400;
+var c13x = width-500;//1500
+var c13y = height-700;//600
+var c13r = width-1600;//400
 
-var c12x = 200;
-var c12y = 300;
-var c12w = 1250;
-var c12h = 400;
+var c12x = width-1600;//400
+var c12y = height-700;//600
+var c12w = 1250;//1250
+var c12h = width-1600;//400
 
 var can;
 
