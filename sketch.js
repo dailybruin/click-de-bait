@@ -1,3 +1,4 @@
+
 //speech bubble 1
 
 var c14x = 900;
@@ -19,7 +20,7 @@ var can;
 function setup() {
   var x = (windowWidth - width)/2;
   var y = (windowHeight - height)/2;
-  can = createCanvas(displayWidth, displayHeight);
+  can = createCanvas(canvas.innerWidth, canvas.innerHeight);
   can.parent('sketch-holder');
 }
 
