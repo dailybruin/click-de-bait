@@ -52,7 +52,9 @@ a {
   z-index: 1;
 }
 
-.icons {
+
+.animated {
+  float: left;
   position: relative;
   left: 15%;
 }
