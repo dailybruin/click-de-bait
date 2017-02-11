@@ -23,96 +23,93 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.4/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.4/addons/p5.dom.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.4/addons/p5.sound.min.js"></script>
-  
+
   <script src="sketch.js"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <script>
   $(function() {
-   $('a[href*="#"]:not([href="#"])').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-     && location.hostname == this.hostname) {
-       var target = $(this.hash);
-       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-       if (target.length) {
-         $('html, body').animate({
-           scrollTop: target.offset().top
-         }, 1000);
-         return false;
-       }
-     }
-   });
- });
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
   </script>
-  
- 
+
+
 </head>
 <body>
   <!--LANDING PAGE CODE STARTS HERE-->
   <div id="sketch-holder">
-    <!--<p id='title'>
-      Click De-Bait
-    </p>
-    -->
-    	 <ul class="navbar-ul">
- 		  <li><a href="http://www.dailybruin.com">BACK TO DAILYBRUIN</a></li>
- 		  <li><a href="#main-carousel"">PODCASTS</a></li>
- 		  <li><a id="navtitle" href="index.html">CLICK DE-BAIT</a></li>
-		</ul>
+    <ul class="navbar-ul">
+      <li><a href="http://www.dailybruin.com" target="_blank">BACK TO DAILYBRUIN</a></li>
+      <li><a href="#main-carousel">PODCASTS</a></li>
+      <li style="float: right;"><a id="navtitle" href="index.html">CLICK DE-BAIT</a></li>
+    </ul>
+
     <a href="#main-carousel">
       <img class="slide-arrow" src="css/image/white-arrow-down.png">
     </a>
   </div>
 
-  <div id="main-carousel" data-flickity='{"pageDots": false, "accessibility": true}'>
-    <div class="carousel-cell">
-      <div class="carousel-content">
-        <iframe width="60%" height="300px" scrolling="no"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-        </iframe>
-      </div>
-    </div>
-    <div class="carousel-cell">
-      <div class="carousel-content">
-        <iframe width="60%" height="300px" scrolling="no"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-        </iframe>
-      </div>
-    </div>
-    <div class="carousel-cell">
-      <div class="carousel-content">
-        <iframe width="60%" height="300px" scrolling="no"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-        </iframe>
-      </div>
-    </div>
-    <div class="carousel-cell">
-      <div class="carousel-content">
-        <iframe width="60%" height="300px" scrolling="no"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-        </iframe>
-      </div>
-    </div>
-    <div class="carousel-cell">
-      <div class="carousel-content">
-        <iframe width="60%" height="300px" scrolling="no"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-        </iframe>
-      </div>
-    </div>
+<div id="main-carousel" data-flickity='{"pageDots": false, "accessibility": true}'>
+  <div class="carousel-cell">
+    <div class="carousel-content">
+      <iframe width="60%" height="300px" scrolling="no"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+    </iframe>
   </div>
+</div>
+<div class="carousel-cell">
+  <div class="carousel-content">
+    <iframe width="60%" height="300px" scrolling="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+  </iframe>
+</div>
+</div>
+<div class="carousel-cell">
+  <div class="carousel-content">
+    <iframe width="60%" height="300px" scrolling="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+  </iframe>
+</div>
+</div>
+<div class="carousel-cell">
+  <div class="carousel-content">
+    <iframe width="60%" height="300px" scrolling="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+  </iframe>
+</div>
+</div>
+<div class="carousel-cell">
+  <div class="carousel-content">
+    <iframe width="60%" height="300px" scrolling="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289802303&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+  </iframe>
+</div>
+</div>
+</div>
 
-  <div class="icons">
-    <p class="animated infinite tada"><a href="http://tinypic.com?ref=20k3mlt" target="_blank"><img src="http://i67.tinypic.com/20k3mlt.png" border="0" alt="Image and video hosting by TinyPic"></a></p>
-    <p class="animated infinite tada"><a href="http://tinypic.com?ref=eal3pg" target="_blank"><img src="http://i66.tinypic.com/eal3pg.jpg" border="0" alt="Image and video hosting by TinyPic"></a></p>
-    <p class="animated infinite tada"><a href="http://tinypic.com?ref=35klbmu" target="_blank"><img src="http://i63.tinypic.com/35klbmu.png" border="0" alt="Image and video hosting by TinyPic"></a></p>
-  </div>
+<div class="icons">
+  <p class="animated infinite tada"><a href="http://tinypic.com?ref=20k3mlt" target="_blank"><img src="http://i67.tinypic.com/20k3mlt.png" border="0" alt="Image and video hosting by TinyPic"></a></p>
+  <p class="animated infinite tada"><a href="http://tinypic.com?ref=eal3pg" target="_blank"><img src="http://i66.tinypic.com/eal3pg.jpg" border="0" alt="Image and video hosting by TinyPic"></a></p>
+  <p class="animated infinite tada"><a href="http://tinypic.com?ref=35klbmu" target="_blank"><img src="http://i63.tinypic.com/35klbmu.png" border="0" alt="Image and video hosting by TinyPic"></a></p>
+</div>
 
 
-  <p class="footer">
-    Page designed and created by <a href="https://github.com/talie-chen" target="_blank">Talie Chen</a>, <a href="https://github.com/Bensun" target="_blank">Benson Han</a>, <a href="https://github.com/paulinalei" target="_blank">Paulina Lei</a>, <a href="https://github.com/silverkitsune">Ashley Vu</a>, and <a href="https://github.com/camillez325">Camille Zhang</a>. &copy; Daily Bruin
-  </p>
+<p class="footer">
+  Page designed and created by <a href="https://github.com/talie-chen" target="_blank">Talie Chen</a>, <a href="https://github.com/Bensun" target="_blank">Benson Han</a>, <a href="https://github.com/paulinalei" target="_blank">Paulina Lei</a>, <a href="https://github.com/silverkitsune">Ashley Vu</a>, and <a href="https://github.com/camillez325">Camille Zhang</a>. &copy; Daily Bruin
+</p>
 
 </body>
 </html>
