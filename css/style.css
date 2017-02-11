@@ -52,6 +52,10 @@ a {
   z-index: 1;
 }
 
+.icons {
+  margin: 0 auto;
+  display: block;
+}
 
 .animated {
   float: left;
@@ -59,8 +63,15 @@ a {
   left: 15%;
 }
 
-footer {
+
+.footer {
   font-family: 'Nunito', sans-serif;
   font-size: 10px;
   text-align: center;
+  display: block;
+  position: fixed;
+  height: 20px;
+  width: 100%;
+  bottom: 0;
+  background-color: red;
 }
